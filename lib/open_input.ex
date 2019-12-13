@@ -11,7 +11,6 @@ defmodule OpenInput do
   def open(file_name) do
     {:ok, file} = File.read(file_name)
 
-    String.split(file, "\n")
-      |> Enum.drop(-1)
+    String.split(file, "\n", trim: true)
   end
 end
