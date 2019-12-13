@@ -5,7 +5,7 @@ defmodule OpenInput do
   ## Examples
 
       iex> OpenInput.open("test/fixtures/open_input.txt")
-      ["test", "OpenInput", "open"]
+      ["test", "OpenInput"]
 
   """
   def open(file_name) do

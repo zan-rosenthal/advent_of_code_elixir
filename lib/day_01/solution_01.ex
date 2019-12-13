@@ -8,11 +8,11 @@ defmodule Day01.Puzzle01 do
 
   ## Examples
 
-      iex> AdventOfCode.hello()
+      iex> Day01.Puzzle01.calculate_fuel()
       :world
 
   """
-  def open_input do
+  def calculate_fuel do
     :world
   end
 end
